@@ -10,7 +10,6 @@ import sys
 answer = random.randint(low := int(sys.argv[1]), high := int(sys.argv[2]))
 message = f"Guess a number ({low}~{high}): " #initial message for first input prompt
 
-
 while True:
     try:
         guess = int(input(message))
